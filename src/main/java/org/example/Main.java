@@ -13,9 +13,9 @@ public class Main {
         //Задание 5
         System.out.println(isSumInRange(5, 15));
         //Задание 6
-        printPositiv(-10);
+        printPositiv(11);
         //Задание 7
-        System.out.println(Negative(50));
+        System.out.println(Negative(-10));
         //Задание 8
         printStr("Привет! Как дела ?", 2 * 3);
         //Задание 9
@@ -24,7 +24,7 @@ public class Main {
         int[] Array = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
         flipBinaryArray(Array);
         //Задание 11
-        int[] nums = new int[101];
+        int[] nums = new int[100];
         fillArrayValues(nums);
         //Задание 12
         int[] array = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
@@ -119,8 +119,15 @@ public class Main {
 
     public static boolean Negative(int number) {
         System.out.println("\n Ответ №  7");
-        return number <= 10;
+       /* if (number >= 0) {
+            System.out.println("false");
+        } else {
+            System.out.println("true");
+        } */
+
+        return number <= -10;
     }
+
 
     /*
 
