@@ -13,9 +13,9 @@ public class Main {
         //Задание 5
         System.out.println(isSumInRange(5, 15));
         //Задание 6
-        printPositiv(11);
+        printPositiv(-10);
         //Задание 7
-        System.out.println(Negative(-10));
+        System.out.println(Negative(8));
         //Задание 8
         printStr("Привет! Как дела ?", 2 * 3);
         //Задание 9
@@ -125,7 +125,7 @@ public class Main {
             System.out.println("true");
         }
 
-        return number <= 0;
+        return number <= -10;
     }
 
 
