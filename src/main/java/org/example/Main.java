@@ -119,11 +119,11 @@ public class Main {
 
     public static boolean Negative(int number) {
         System.out.println("\n Ответ №  7");
-       /* if (number >= 0) {
+        if (number >= 0) {
             System.out.println("false");
         } else {
             System.out.println("true");
-        } */
+        }
 
         return number <= -10;
     }
