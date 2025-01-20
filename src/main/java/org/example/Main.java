@@ -125,8 +125,9 @@ public class Main {
             System.out.println("true");
         }
 
-        return number <= -10;
+        return number <= 0;
     }
+
 
 
     /*
@@ -179,12 +180,15 @@ public class Main {
      * @param array Массив, который нужно заполнить
      */
     public static void fillArrayValues(int[] array) {
-        System.out.println("\n Ответ №  11");
-        for (int i = 1; i < array.length; i++) {
-            System.out.print((array[i] = i) + " ");
+        System.out.println("\n\nОтвет №  11");
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+        } for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
         }
-    }
 
+
+    }
     /**
      * Метод умножает на 2 числа, которые меньшие 6 в  массиве.
      *
