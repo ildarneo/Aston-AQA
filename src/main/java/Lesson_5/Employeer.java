@@ -1,4 +1,4 @@
-package org.example;
+package Lesson_5;
 
 
 
@@ -22,7 +22,7 @@ public class Employeer {
         this.age = age;
     }
 
-    public void info() {
+    public void displayInfo() {
         System.out.println("ФИО: " + fio);
         System.out.println("Должность: " + position);
         System.out.println("Email: " + email);
@@ -32,7 +32,7 @@ public class Employeer {
     }
 
     public static void main(String[] args) {
-        Employeer employee = new Employeer("Замухрышев Петр Никонорович", "Инженер по безоблачным технологиями", "starover@examp.com","7919691484", 50000, 130);
-        employee.info();
+        Employeer employeer = new Employeer("Замухрышев Петр Никонорович", "Инженер по безоблачным технологиями", "starover@examp.com","7919691484", 50000, 130);
+        employeer.displayInfo();
     }
 }
