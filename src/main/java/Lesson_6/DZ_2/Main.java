@@ -3,7 +3,7 @@ package Lesson_6.DZ_2;
 
 public class Main {
     public static void main(String[] args) {
-        Circle circle = new Circle(8, "Розовый", "Черный");
+        Circle circle = new Circle(18, "Розовый", "Черный");
         circle.showInfo();
 
         Rectangle rectangle = new Rectangle(5, 6, "Синий", "Красный");

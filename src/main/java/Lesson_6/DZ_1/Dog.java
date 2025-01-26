@@ -24,7 +24,7 @@ public class Dog extends Animal {
         if (lenght >= MAX_SWIM_DISTANCE ) {
             System.out.println(name + " не может проплыть " + lenght + " м.");
         } else {
-            System.out.println(name + "  еще проплыл " + lenght + " м.  Какой он молодец");
+            System.out.println("И еще " + name + "  проплыл " + lenght + " м.  Какой он молодец");
         }
     }
     public static int getDogCount() {

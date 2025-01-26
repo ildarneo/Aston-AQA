@@ -3,7 +3,7 @@ package Lesson_6.DZ_1;
 public class Main {
     public static void main(String[] args) {
         Dog dogSharik = new Dog("Шарик");
-        Cat catKorjik = new Cat("Коржик");
+        Cat catKorjik = new Cat("Кот Коржик");
 
         int minValue = 1;
         int maxValue = 240;
@@ -26,7 +26,7 @@ public class Main {
             cats[i] = new Cat("Кот № " + (i + 1)); // Инициализируем котов
         }
         //-------------------------------------------------------------//
-        Bowl bowl = new Bowl(35); // Создаем миску с едой
+        Bowl bowl = new Bowl(35); // Создаем миску с едой и опред количест еды
 
         for (int i = 0; i < cats.length; i++) {
             int foodTaken = bowl.getFood(10);

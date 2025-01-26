@@ -40,7 +40,7 @@ public class Cat extends Animal {
     public void eat(int foodAmount) {
         if (foodAmount > 0 ) {
             fullness = true;
-            System.out.print(name + " покушал из миски и пошел спать.");
+            System.out.print(name + " покушал из миски и пошел спать или в туалет.");
         } else {
             fullness = false; // Кот голодец, так как не хватает еды. по идее сам винован
             System.out.println(name + " не может покушать из миски, так как не хватает еды. Надо вовремя приходить на обед !");
