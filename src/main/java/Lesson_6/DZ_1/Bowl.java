@@ -17,8 +17,8 @@ public class Bowl {
     }
 
     /**
-     * Метод getFood позволяет  кушать из миски.
-     * Если в миске не хватает еды,  нет возможности покушать.
+     * Метод getFood позволяет кушать из миски.
+     * Если в миске не хватает еды, нельзя покушать.
      */
     public int getFood(int countFood) {
         if (foodAmount >= countFood) {
