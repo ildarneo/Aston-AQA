@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e0afe9-4de1-4d6a-88da-a8c3e44f4876" name="Changes" comment="Merge remote-tracking branch 'origin/Lesson_12_junit_5' into Lesson_12_junit_5" />
+    <list default="true" id="70e0afe9-4de1-4d6a-88da-a8c3e44f4876" name="Changes" comment="Merge remote-tracking branch 'origin/Lesson_12_junit_5' into Lesson_12_junit_5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_12_junit5/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_12_testng/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_12_junit5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_12_testng/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +24,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "JUnit.Test_Junit.executor": "Run",
+    "TestNG.TestNG.executor": "Run",
     "git-widget-placeholder": "Lesson__12__testng"
   }
 }]]></component>

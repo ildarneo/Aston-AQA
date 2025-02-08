@@ -1,4 +1,4 @@
-package Lesson_12_junit5;
+package Lesson_12_testng;
 
 
 public class Factorial {
