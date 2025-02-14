@@ -12,10 +12,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-public class MtsHomePage {
+public class Mts {
     public WebDriver driver;
 
-    public MtsHomePage(WebDriver driver) {
+    public Mts(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }

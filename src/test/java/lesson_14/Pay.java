@@ -15,14 +15,14 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Pay {
-    public static MtsHomePage mtsHomePage;
+    public static Mts mtsHomePage;
     public static WebDriver driver;
     public static final String PAGE_URL = "http://mts.by";
 
     @BeforeAll
     static void before() {
         driver = new ChromeDriver();
-        mtsHomePage = new MtsHomePage(driver);
+        mtsHomePage = new Mts(driver);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.get(PAGE_URL);
