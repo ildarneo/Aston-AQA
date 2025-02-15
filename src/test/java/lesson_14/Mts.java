@@ -74,7 +74,7 @@ public class Mts {
      * @return заголовок формы оплаты
      */
     public String getPaySectionTitle() {
-        return paySectionTitle.getText().replaceAll("\n|\r\n", " ");
+        return paySectionTitle.getText().replaceAll("[\\r\\n]+", " ");
     }
 
     /**

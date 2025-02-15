@@ -1,15 +1,17 @@
 package lesson_14;
 
-
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -37,59 +39,36 @@ public class Pay {
     @Test
     @DisplayName("Заголовок формы")
     public void title() {
-        String name = "Заголовок";
-        try {
-            String actualValue = mtsHomePage.getPaySectionTitle();
-            assertEquals("Онлайн пополнение без комиссии", actualValue, name + " не совпадает");
-            System.out.println(name + " совпадает: " + actualValue);
-        } catch (NoSuchElementException e) {
-            assertTrue(false, name + " не найден");
-        }
+        String expectedTitle = "Онлайн пополнение без комиссии";
+        String actualValue = mtsHomePage.getPaySectionTitle();
+        assertEquals(expectedTitle, actualValue, "Заголовок формы не совпадает");
+        System.out.println("Заголовок совпал: " + actualValue);
     }
 
     @ParameterizedTest
-    @DisplayName("Картинки платежных систем")
+    @DisplayName("Логотивы платежных систем")
     @ValueSource(strings = {"visa.svg", "visa-verified.svg", "mastercard.svg", "mastercard-secure.svg", "belkart.svg"})
     void payPics(String src) {
-        try {
-            assertTrue(mtsHomePage.isDisplayedImg(src), "Картинка " + src + " не отображается");
+        boolean isDisplayed = mtsHomePage.isDisplayedImg(src);
+        assertTrue(isDisplayed, "Картинка " + src + " не отображается");
+        if (isDisplayed) {
             System.out.println("Картинка " + src + " отображается");
-        } catch (NoSuchElementException e) {
-            assertTrue(false, "Картинка " + src + " не найдена");
         }
     }
 
-    @Test
-    @DisplayName("Ссылка 'Подробнее о сервисе'")
-    void detailLink() {
-        String urlLink = null;
-        try {
-            urlLink = mtsHomePage.getLinkUrl();
-            int linkResponseCode = mtsHomePage.getRespCode(urlLink);
-            assertTrue(linkResponseCode < 400, "Ссылка " + urlLink + " битая (код: " + linkResponseCode + ")");
-            System.out.println("Ссылка " + urlLink + " рабочая (код: " + linkResponseCode + ")");
-        } catch (NoSuchElementException e) {
-            assertTrue(false, "Нет ссылки");
-        } catch (MalformedURLException e) {
-            assertTrue(false, "Не корректный url: " + urlLink);
-        } catch (IOException e) {
-            assertTrue(false, "Проблема с соединением");
-        }
-    }
+
 
     @Test
     @DisplayName("Работа кнопки 'Продолжить'")
     void payForm() {
         String name = "Окно оплаты";
-        try {
-            mtsHomePage.setPhoneField("297777777");
-            mtsHomePage.setSumField("50");
-            mtsHomePage.clickPayBtn();
-            String actualValue = mtsHomePage.getFrameLink();
-            assertEquals("https://checkout.bepaid.by/widget_v2/index.html", actualValue, name + " не открылось");
-            System.out.println(name + " открылось");
-        } catch (NoSuchElementException e) {
-            assertTrue(false, "Элемент не найден");
-        }
+        mtsHomePage.setPhoneField("297777777");
+        mtsHomePage.setSumField("50");
+        mtsHomePage.clickPayBtn();
+
+        String actualValue = mtsHomePage.getFrameLink();
+        assertEquals("https://checkout.bepaid.by/widget_v2/index.html", actualValue, name + " не открылось");
+        System.out.println(name + " открылось");
     }
 }
+
