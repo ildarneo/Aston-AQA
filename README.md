@@ -13,6 +13,17 @@ https://www.db-fiddle.com/f/acUhWZEc8aQTqHte3ngD1F/1
 ![image](https://github.com/user-attachments/assets/847de161-4c2f-44c8-817e-2ce429476d86)
 
 
+The following picture shows the table names and their records.
+
+Table	Rows
+employees	40
+dependents	30
+departments	11
+jobs	11
+locations	7
+countries	25
+regions	4
+
 В данной схеме следующие обозначения:
 - символом «*» обозначаются первичные ключи;
 - «(fk)» после наименования поля обозначаются внешние ключи;
