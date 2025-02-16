@@ -93,14 +93,7 @@ public class Mts {
         return link.getAttribute("href");
     }
 
-    /**
-     * Метод возвращает код ответа ссылки
-     *
-     * @param urlLink ссылка
-     * @return код ответа на ссылку
-     * @throws MalformedURLException ссылка имеет не корректный формат
-     * @throws IOException           не удается созадть коннект
-     */
+
     public int getRespCode(String urlLink) throws MalformedURLException, IOException {
         URL url = new URL(urlLink);
         HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
