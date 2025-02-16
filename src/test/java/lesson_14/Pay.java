@@ -3,18 +3,18 @@ package lesson_14;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.openqa.selenium.NoSuchElementException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.time.Duration;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class Pay {
     public static Mts mtsHomePage;
@@ -57,7 +57,6 @@ public class Pay {
     }
 
 
-
     @Test
     @DisplayName("Работа кнопки 'Продолжить'")
     void payForm() {
@@ -70,5 +69,24 @@ public class Pay {
         assertEquals("https://checkout.bepaid.by/widget_v2/index.html", actualValue, name + " не открылось");
         System.out.println(name + " открылось");
     }
+
+    @Test
+    @DisplayName("Проверка 'Подробнее о сервисе'")
+    void detailLink() {
+        String urlLink = null;
+        try {
+            urlLink = mtsHomePage.getLinkUrl();
+            int linkResponseCode = mtsHomePage.getRespCode(urlLink);
+            assertTrue(linkResponseCode < 400, "Ссылка " + urlLink + " битая (код: " + linkResponseCode + ")");
+            System.out.println("Ссылка " + urlLink + " рабочая (код: " + linkResponseCode + ")");
+        } catch (NoSuchElementException e) {
+            assertTrue(false, "Нет ссылки");
+        } catch (MalformedURLException e) {
+            assertTrue(false, "Не корректный url: " + urlLink);
+        } catch (IOException e) {
+            assertTrue(false, "Проблема с соединением");
+        }
+    }
 }
+
 
