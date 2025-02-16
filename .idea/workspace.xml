@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="Update README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="правки.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_14/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_14/Pay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_14/Pay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson_14/Pay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_14/Mts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_14/Mts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_14/Mts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson_14/Mts.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,12 +132,29 @@
       <option name="project" value="LOCAL" />
       <updated>1739644009108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="правки.">
+      <option name="closed" value="true" />
+      <created>1739726543567</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739726543567</updated>
+    </task>
+    <task id="LOCAL-00005" summary="правки.">
+      <option name="closed" value="true" />
+      <created>1739726601418</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739726601418</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="правки." />
+    <option name="LAST_COMMIT_MESSAGE" value="правки." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
