@@ -1,4 +1,4 @@
-package lesson_15;
+package lesson_17;
 
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
