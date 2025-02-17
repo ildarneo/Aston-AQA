@@ -4,29 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="правки.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_14/Mts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_14/Mts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_14/Mts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson_14/Mts.class" afterDir="false" />
-    </list>
+    <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_12_testng" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -38,7 +22,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ildarneo/Aston-AQA.git&quot;,
-    &quot;accountId&quot;: &quot;21496a8a-3d6d-4bb0-b629-d34d0866d7fb&quot;
+    &quot;accountId&quot;: &quot;c9727019-e74b-49e5-a98e-87c2bd85746c&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -56,49 +40,15 @@
     "Application.Main.executor": "Run",
     "Application.main.executor": "Run",
     "Application.maın.executor": "Run",
-    "JUnit.Pay.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Lesson__14",
+    "git-widget-placeholder": "Lesson5",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ildar/IdeaProjects/aston_edu",
+    "last_opened_file_path": "C:/Users/inst/IdeaProjects/Aston-AQA",
     "onboarding.tips.debug.path": "C:/Users/inst/IdeaProjects/Aston-AQA/main/src/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="lesson_14_1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ildar\IdeaProjects\Aston-AQA\src\test\java\lesson_14" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ildar\IdeaProjects\Aston-AQA" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Pay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aston-AQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson_14_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson_14" />
-      <option name="MAIN_CLASS_NAME" value="lesson_14.Pay" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Pay" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -108,53 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737033870944</updated>
     </task>
-    <task id="LOCAL-00001" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1739558017148</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1739558017148</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1739558050747</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1739558050747</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1739644009108</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1739644009108</updated>
-    </task>
-    <task id="LOCAL-00004" summary="правки.">
-      <option name="closed" value="true" />
-      <created>1739726543567</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1739726543567</updated>
-    </task>
-    <task id="LOCAL-00005" summary="правки.">
-      <option name="closed" value="true" />
-      <created>1739726601418</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1739726601418</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update README.md" />
-    <MESSAGE value="правки." />
-    <option name="LAST_COMMIT_MESSAGE" value="правки." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
