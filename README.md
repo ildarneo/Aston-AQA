@@ -1,6 +1,7 @@
 # Aston-AQA
 course QAQ JAVA from Aston
 Данный репозиторий домашних заданий от Астон
-Домашнее заданиe 15
-![image](https://github.com/user-attachments/assets/5347cbb0-681c-430f-9256-db7bc15cbb52)
+Домашнее заданиe 17
+![image](https://github.com/user-attachments/assets/1f331c12-6dc5-4de4-91cb-adff53afeecb)
+
 
