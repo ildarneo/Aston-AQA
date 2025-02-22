@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="Update README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="Delete target directory">
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_17/TestEchoPostman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_17/TestEchoPostman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +20,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -28,12 +27,13 @@
     &quot;assignee&quot;: &quot;ildarneo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ildarneo/Aston-AQA.git&quot;,
-    &quot;accountId&quot;: &quot;21496a8a-3d6d-4bb0-b629-d34d0866d7fb&quot;
-  }
-}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ildarneo/Aston-AQA.git",
+    "accountId": "21496a8a-3d6d-4bb0-b629-d34d0866d7fb"
+  },
+  "editorReviewEnabled": false
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -72,7 +72,7 @@
       <recent name="C:\Users\Ildar\IdeaProjects\Aston-AQA" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostmanEchoTest">
+  <component name="RunManager" selected="JUnit.TestEchoPostman">
     <configuration name="PostmanEchoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aston-AQA" />
       <extension name="coverage">
@@ -120,22 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostmanEchoTest.numOfEvents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aston-AQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson_17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson_17" />
-      <option name="MAIN_CLASS_NAME" value="lesson_17.PostmanEchoTest" />
-      <option name="METHOD_NAME" value="numOfEvents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostmanEchoTest.statusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aston-AQA" />
       <extension name="coverage">
@@ -152,13 +136,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestEchoPostman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston-AQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson_17" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_17.TestEchoPostman" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestEchoPostman" />
         <item itemvalue="JUnit.PostmanEchoTest" />
         <item itemvalue="JUnit.PostmanEchoTest.statusCode" />
         <item itemvalue="JUnit.PostmanEchoTest.getTime" />
         <item itemvalue="JUnit.PostmanEchoTest.DigestAuth" />
-        <item itemvalue="JUnit.PostmanEchoTest.numOfEvents" />
       </list>
     </recent_temporary>
   </component>
@@ -219,12 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740246809709</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740248840392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740248840392</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Delete target directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete target directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
