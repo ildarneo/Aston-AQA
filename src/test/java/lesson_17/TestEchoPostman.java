@@ -5,8 +5,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.Matchers.*;
 
 public class TestEchoPostman {
     private final static String BASE_URI = "https://postman-echo.com";
@@ -42,6 +44,8 @@ public class TestEchoPostman {
                 .assertThat().statusCode(200)
                 .and().body("data", is(TEST_DATASTRING));
     }
+
+
 
     @Test
     @DisplayName("POST Form Data")
@@ -83,6 +87,99 @@ public class TestEchoPostman {
                 // .log().all()
                 .assertThat().statusCode(200)
                 .and().body("data", is(TEST_DATASTRING));
+    }
+
+    @Test
+    @DisplayName("TEST STATUS 404")
+    public void St404() {
+        given()
+                // .log().all()
+                .body(TEST_DATASTRING)
+                .when().patch("/get")
+                .then()
+                // .log().all()
+                .assertThat().statusCode(404);
+    }
+
+    @Test
+    public void whenDeleteRequest_thenEqual() {
+        RestAssured.baseURI = "https://postman-echo.com";
+        String responseBody = "This is expected to be sent back as part of response body.";
+        given().log().all().body(responseBody)
+                .when().delete("/delete")
+                .then().log().body().statusCode(200)
+                .assertThat()
+                .body("args", notNullValue())
+                .body("files", notNullValue())
+                .body("form", notNullValue())
+                .body("data", equalTo("This is expected to be sent back as part of response body."))
+                .body("headers.host", equalTo("postman-echo.com"))
+                .body("headers.x-request-start", notNullValue())
+                .body("headers.connection", equalTo("close"))
+                .body("headers.content-length", equalTo("58"))
+                .body("headers.x-forwarded-proto", equalTo("https"))
+                .body("headers.x-forwarded-port", equalTo("443"))
+                .body("headers.x-amzn-trace-id", notNullValue())
+                .body("headers.content-type", equalTo("text/plain; charset=ISO-8859-1"))
+                .body("headers.accept", equalTo("*/*"))
+                .body("headers.accept-encoding", equalTo("gzip,deflate"))
+                .body("headers.postman-token",not(""))
+                .body("json", equalTo(null))
+                .body("url", equalTo("https://postman-echo.com/delete"));
+    }
+
+    @Test
+    public void whenPutRequest_thenEqual() {
+        RestAssured.baseURI = "https://postman-echo.com";
+        String responseBody = "This is expected to be sent back as part of response body.";
+        given().log().all().body(responseBody)
+                .when().put("/put")
+                .then().log().body().statusCode(200)
+                .assertThat()
+                .body("args", notNullValue())
+                .body("files", notNullValue())
+                .body("form", notNullValue())
+                .body("data", equalTo("This is expected to be sent back as part of response body."))
+                .body("headers.host", equalTo("postman-echo.com"))
+                .body("headers.x-request-start", notNullValue())
+                .body("headers.connection", equalTo("close"))
+                .body("headers.content-length", equalTo("58"))
+                .body("headers.x-forwarded-proto", equalTo("https"))
+                .body("headers.x-forwarded-port", equalTo("443"))
+                .body("headers.x-amzn-trace-id", notNullValue())
+                .body("headers.content-type", equalTo("text/plain; charset=ISO-8859-1"))
+                .body("headers.accept", equalTo("*/*"))
+                .body("headers.accept-encoding", equalTo("gzip,deflate"))
+                .body("headers.postman-token",not(""))
+                .body("json", equalTo(null))
+                .body("url", equalTo("https://postman-echo.com/put"));
+    }
+
+    @Test
+    public void whenPatchRequest_thenEqual() {
+        RestAssured.baseURI = "https://postman-echo.com";
+        String responseBody = "This is expected to be sent back as part of response body.";
+        given().log().all().body(responseBody)
+                .when().patch("/patch")
+                .then().log().body().statusCode(200)
+                .assertThat()
+                .body("data", equalTo("This is expected to be sent back as part of response body."))
+                .body("args", notNullValue())
+                .body("files", notNullValue())
+                .body("form", notNullValue())
+                .body("headers.host", equalTo("postman-echo.com"))
+                .body("headers.x-request-start", notNullValue())
+                .body("headers.connection", equalTo("close"))
+                .body("headers.content-length", equalTo("58"))
+                .body("headers.x-forwarded-proto", equalTo("https"))
+                .body("headers.x-forwarded-port", equalTo("443"))
+                .body("headers.x-amzn-trace-id", notNullValue())
+                .body("headers.content-type", equalTo("text/plain; charset=ISO-8859-1"))
+                .body("headers.accept", equalTo("*/*"))
+                .body("headers.accept-encoding", equalTo("gzip,deflate"))
+                .body("headers.postman-token",not(""))
+                .body("json", equalTo(null))
+                .body("url", equalTo("https://postman-echo.com/patch"));
     }
 
     @Test

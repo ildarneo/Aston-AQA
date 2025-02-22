@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="Delete target directory">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lesson_17/TestEchoPostman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_17/TestEchoPostman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,7 @@
     "JUnit.PostmanEchoTest.getTime.executor": "Run",
     "JUnit.PostmanEchoTest.numOfEvents.executor": "Run",
     "JUnit.PostmanEchoTest.statusCode.executor": "Run",
+    "JUnit.TestEchoPostman.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -226,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740248840392</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740249363209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740249363209</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
