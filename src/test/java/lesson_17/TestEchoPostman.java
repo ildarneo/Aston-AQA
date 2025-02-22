@@ -103,7 +103,7 @@ public class TestEchoPostman {
 
     @Test
     public void whenDeleteRequest_thenEqual() {
-        RestAssured.baseURI = "https://postman-echo.com";
+
         String responseBody = "This is expected to be sent back as part of response body.";
         given().log().all().body(responseBody)
                 .when().delete("/delete")
@@ -130,7 +130,7 @@ public class TestEchoPostman {
 
     @Test
     public void whenPutRequest_thenEqual() {
-        RestAssured.baseURI = "https://postman-echo.com";
+
         String responseBody = "This is expected to be sent back as part of response body.";
         given().log().all().body(responseBody)
                 .when().put("/put")
@@ -157,7 +157,7 @@ public class TestEchoPostman {
 
     @Test
     public void whenPatchRequest_thenEqual() {
-        RestAssured.baseURI = "https://postman-echo.com";
+
         String responseBody = "This is expected to be sent back as part of response body.";
         given().log().all().body(responseBody)
                 .when().patch("/patch")

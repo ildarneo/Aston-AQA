@@ -7,6 +7,7 @@
     <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="Delete target directory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lesson_17/TestEchoPostman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson_17/TestEchoPostman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson_17/TestEchoPostman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lesson_17/TestEchoPostman.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,9 @@
   },
   "editorReviewEnabled": false
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -236,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740249363209</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740250710402</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740250710402</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740250718459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740250718459</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
