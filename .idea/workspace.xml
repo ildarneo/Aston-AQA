@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="Delete target directory">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson_18/MtsHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lesson_18/MtsHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson_18/PayFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lesson_18/PayFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson_18/PayFrameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lesson_18/PayFrameTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson_18/PaySectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lesson_18/PaySectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/allure-results/index.html.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/allure-results/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allure-results/index.html.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/allure-results/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_15/MtsHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_15/PayFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_15/PayFrameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_15/PaySectionTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +36,23 @@
     &quot;assignee&quot;: &quot;ildarneo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ildarneo/Aston-AQA.git&quot;,
-    &quot;accountId&quot;: &quot;21496a8a-3d6d-4bb0-b629-d34d0866d7fb&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ildarneo/Aston-AQA.git",
+    "accountId": "21496a8a-3d6d-4bb0-b629-d34d0866d7fb"
   },
-  &quot;editorReviewEnabled&quot;: false
-}</component>
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "ildarneo",
+    "repository": "Aston-AQA"
+  },
+  "editorReviewEnabled": false
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -58,6 +73,7 @@
     "Application.maın.executor": "Run",
     "JUnit.PayFrameTest.descriptionCost.executor": "Debug",
     "JUnit.PayFrameTest.executor": "Debug",
+    "JUnit.PaySectionTest (1).executor": "Debug",
     "JUnit.PaySectionTest.executor": "Debug",
     "JUnit.PostmanEchoTest.DigestAuth.executor": "Run",
     "JUnit.PostmanEchoTest.executor": "Run",
@@ -68,25 +84,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__18",
+    "git-widget-placeholder": "#9 on Lesson__18",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ildar/IdeaProjects/Aston-AQA",
+    "last_opened_file_path": "C:/Users/Ildar/IdeaProjects/Aston-AQA/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/inst/IdeaProjects/Aston-AQA/main/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ildar\IdeaProjects\Aston-AQA\src\test\resources" />
       <recent name="C:\Users\Ildar\IdeaProjects\Aston-AQA" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PaySectionTest">
+  <component name="RunManager" selected="JUnit.PayFrameTest">
     <configuration name="PayFrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aston-AQA" />
       <extension name="coverage">
@@ -128,21 +145,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lesson_18" />
       <option name="MAIN_CLASS_NAME" value="Lesson_18.PaySectionTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostmanEchoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaySectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aston-AQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_17.*" />
+          <option name="PATTERN" value="Lesson_18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_17" />
-      <option name="MAIN_CLASS_NAME" value="lesson_17.PostmanEchoTest" />
+      <option name="PACKAGE_NAME" value="Lesson_18" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_18.PaySectionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PaySectionTest" />
         <item itemvalue="JUnit.PayFrameTest" />
+        <item itemvalue="JUnit.PaySectionTest" />
+        <item itemvalue="JUnit.PaySectionTest (1)" />
         <item itemvalue="JUnit.PayFrameTest.descriptionCost" />
         <item itemvalue="JUnit.TestEchoPostman" />
-        <item itemvalue="JUnit.PostmanEchoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740424098769</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740424717524</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740424717524</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740424729580</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740424729580</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
