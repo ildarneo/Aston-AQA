@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="Delete target directory">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_15/MtsHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson_18/MtsHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_15/PayFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson_18/PayFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_15/PayFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson_18/PayFrameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson_15/PaySectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson_18/PaySectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#8 on Lesson__18",
+    "git-widget-placeholder": "Lesson__18",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Ildar/IdeaProjects/Aston-AQA",
     "onboarding.tips.debug.path": "C:/Users/inst/IdeaProjects/Aston-AQA/main/src/Main.java",
