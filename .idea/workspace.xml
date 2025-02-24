@@ -4,13 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="" />
+    <list default="true" id="838f42b6-b009-4da5-a02d-6f97f86f413c" name="Changes" comment="Delete target directory">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/allure-results/index.html.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/allure-results/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allure-results/index.html.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/allure-results/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_15/MtsHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_15/PayFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_15/PayFrameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson_15/PaySectionTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_17" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -19,12 +36,26 @@
     &quot;assignee&quot;: &quot;ildarneo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ildarneo/Aston-AQA.git&quot;,
-    &quot;accountId&quot;: &quot;c9727019-e74b-49e5-a98e-87c2bd85746c&quot;
-  }
-}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ildarneo/Aston-AQA.git",
+    "accountId": "21496a8a-3d6d-4bb0-b629-d34d0866d7fb"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "ildarneo",
+    "repository": "Aston-AQA"
+  },
+  "editorReviewEnabled": false
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -40,15 +71,126 @@
     "Application.Main.executor": "Run",
     "Application.main.executor": "Run",
     "Application.maın.executor": "Run",
+    "JUnit.PayFrameTest.descriptionCost.executor": "Debug",
+    "JUnit.PayFrameTest.executor": "Debug",
+    "JUnit.PaySectionTest (1).executor": "Debug",
+    "JUnit.PaySectionTest.executor": "Debug",
+    "JUnit.PostmanEchoTest.DigestAuth.executor": "Run",
+    "JUnit.PostmanEchoTest.executor": "Run",
+    "JUnit.PostmanEchoTest.getTime.executor": "Run",
+    "JUnit.PostmanEchoTest.numOfEvents.executor": "Run",
+    "JUnit.PostmanEchoTest.statusCode.executor": "Run",
+    "JUnit.TestEchoPostman.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Lesson5",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#9 on Lesson__18",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/inst/IdeaProjects/Aston-AQA",
+    "last_opened_file_path": "C:/Users/Ildar/IdeaProjects/Aston-AQA/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/inst/IdeaProjects/Aston-AQA/main/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ildar\IdeaProjects\Aston-AQA\src\test\resources" />
+      <recent name="C:\Users\Ildar\IdeaProjects\Aston-AQA" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PayFrameTest">
+    <configuration name="PayFrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston-AQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson_18" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_18.PayFrameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayFrameTest.descriptionCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston-AQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson_18" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_18.PayFrameTest" />
+      <option name="METHOD_NAME" value="descriptionCost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaySectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston-AQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson_18" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_18.PaySectionTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaySectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston-AQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson_18" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_18.PaySectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEchoPostman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aston-AQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson_17" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_17.TestEchoPostman" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PayFrameTest" />
+        <item itemvalue="JUnit.PaySectionTest" />
+        <item itemvalue="JUnit.PaySectionTest (1)" />
+        <item itemvalue="JUnit.PayFrameTest.descriptionCost" />
+        <item itemvalue="JUnit.TestEchoPostman" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +200,125 @@
       <option name="presentableId" value="Default" />
       <updated>1737033870944</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1740246047312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246047312</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1740246088448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246088448</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1740246221766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246221766</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1740246242507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246242507</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1740246783317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246783317</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1740246809709</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246809709</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740248840392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740248840392</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740249363209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740249363209</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740250710402</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740250710402</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740250718459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740250718459</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740424089142</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740424089142</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740424098769</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740424098769</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740424717524</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740424717524</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1740424729580</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740424729580</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Delete target directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete target directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
